@@ -26,4 +26,4 @@ COPY --from=builder /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/
 
 # Set permissions and entry point
 USER gouser
-ENTRYPOINT ["/nexa-mqtt"]
+ENTRYPOINT ["/noah-mqtt"]
