@@ -13,7 +13,7 @@ RUN go mod download
 
 # Build the application
 COPY . .
-RUN go build -o nexa-mqtt cmd/nexa-mqtt/main.go
+RUN go build -o nexa-mqtt cmd/noah-mqtt/main.go
 
 # scratch image to run
 FROM scratch
